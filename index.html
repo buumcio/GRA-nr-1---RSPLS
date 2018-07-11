@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Gra nr 1</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  </head>
+  <body>
+    <div id="js-iconsContainer"class="i-container">
+      <h1 class="text-center">Welcome to the game<br><span>ROCK PAPER SCISSORS LIZARD SPOCK</span></h1>
+      <div id="js-gameNow" class="game-now">GAME NOW</div>
+    </div>
+    <div id="js-mainGame" class="m-game">
+      <div id="js-newGameElement" class="flex-container">
+        <div class="new-game" id="js-newGameButton">NEW GAME</div>
+      </div>
+      <div id="js-playerPickElement" class="flex-container-1">
+        <div id="js-playerPick_rock" class="push-box">
+          <i class="fas fa-hand-rock" aria-hidden="true"></i>
+        </div>
+        <div id="js-playerPick_paper" class="push-box">
+          <i class="fas fa-hand-paper" aria-hidden="true"></i>
+        </div>
+        <div id="js-playerPick_scissors" class="push-box">
+          <i class="fas fa-hand-scissors" aria-hidden="true"></i>
+        </div>
+        <div id="js-playerPick_lizard" class="push-box"> 
+          <i class="fas fa-hand-lizard" aria-hidden="true"></i>
+        </div>
+        <div id="js-playerPick_spock" class="push-box">
+          <i class="fas fa-hand-spock" aria-hidden="true"></i>
+        </div>
+      </div>
+      <div id="js-resultsTableElement" class="flex-container-2">
+        <div class="flex-row-1">
+          <h2 id="js-playerName">Player Name
+          </h2>
+          <h3 id="js-playerPoints">
+          0</h3>
+          <h5>VS.</h5>
+          <h3 id="js-computerPoints">
+          0</h3>
+          <h2>Computer
+          </h2>  
+        </div>
+        <div class="flex-row-2">
+          <h4 id="js-playerPick">
+          Player selection
+          </h4>
+          <h4 id="js-computerPick">
+          Computer selection
+          </h4>
+        </div>
+        <div class="flex-row-3">
+          <h2 id="js-playerResult">
+          Player Score
+          </h2>
+          <h2 id="js-noonePoints"></h2>
+          <h2 id="js-computerResult">
+          Computer Score
+          </h2>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="scripts/script.js"></script>
+  </body>
+</html>
+
+
+
